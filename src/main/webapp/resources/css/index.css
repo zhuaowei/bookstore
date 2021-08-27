@@ -1,0 +1,44 @@
+body, div, span, ul, li, ol, a, input {
+    text-decoration: none;
+    color: #212121;
+    list-style-type: none;
+}
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+/* header 样式 */
+
+header {
+
+}
+
+
+.header-nav .container {
+    margin: auto;
+    width: 480px;
+    height: 60px;
+}
+
+header .header-nav .container li.nav-item {
+    /*position: relative;*/
+    width: 50px;
+    height: 60px;
+    margin: 0px 23px;
+    float: left;
+}
+
+header .header-nav .container li.nav-item a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 2px;
+}
+
+li:hover>a {
+    color: #f0295e;
+}
+

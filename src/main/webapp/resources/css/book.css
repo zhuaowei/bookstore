@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    color: #212121;
+}
+
+.highlight {
+    background-color: #478af5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    height: 48px;
+    background-color: #212121;
+}
+
+header div {
+    margin: 0px 15px;
+}
+
+#icon {
+    height: 48px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #efefef;
+    line-height: 48px;
+    float: left;
+}
+
+#member {
+    height: 32px;
+    margin: 8px auto;
+    font-size: 16px;
+    color: #efefef;
+    line-height: 48px;
+    float: right;
+}
+
+#member img {
+    height: 32px;
+    object-fit: cover;
+    display: inline-block;
+    color: #efefef;
+    line-height: 32px;
+}
+
+#member span {
+    height: 32px;
+    color: #efefef;
+    line-height: 32px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 12px;
+}
+
+#logout {
+    display: inline-block;
+    height: 48px;
+    font-size: 16px;
+    color: #efefef;
+    line-height: 48px;
+    float: right;
+}
+
+.main {
+    height: auto;
+}
+
+.side-bar {
+    width: 240px;
+    background-color: #363c48;
+    height: 889px;
+    float: left;
+}
+
+.side-bar div {
+    height: 48px;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #272833;
+    color: #efefef;
+}
+
+.content {
+    margin: 0px auto;
+    padding: 10px 100px;
+    width: 1200px;
+    float: left;
+}
+
+.content .list-title {
+    height: 48px;
+    border-left: 5px solid #478af5;
+    line-height: 48px;
+    text-indent: 24px;
+    background-color: #efefef;
+}
+
+
+.book {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.book .tool-bar {
+    height: 48px;
+    background-color: #efefef;
+}
+
+.blue-button {
+    height: 40px;
+    width: 72px;
+    border-radius: 5px;
+    margin: 4px 16px;
+    background-color: #478af5;
+    color: #efefef;
+}
+
+#col {
+    height: 48px;
+    line-height: 48px;
+    text-indent: 16px;
+}
+
+#col div {
+    height: 48px;
+    line-height: 48px;
+    text-indent: 16px;
+    float: left;
+    overflow: hidden;
+}
+
+#book-list {
+    width: 1200px;
+
+}
+
+#book-list li {
+    height: 48px;
+    border: 1px solid #efefef;
+}
+
+#book-list li div {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    text-indent: 16px;
+    overflow: hidden;
+    border-left: 1px solid grey;
+}
+
+
+.col-1 {
+    width: 240px;
+}
+.col-2 {
+    width: 240px;
+}
+.col-3 {
+    width: 400px;
+}
+.col-4 {
+    width: 240px;
+}
+
+ .operate button {
+     margin: 0px 3px;
+ }
+
+ .page-skip {
+     height: 48px;
+ }
+
+ .page-skip p {
+     display: inline-block;
+     height: 48px;
+     line-height: 48px;
+     float: right;
+ }
+
+
+ /* 弹窗 */
+#dialog {
+    width: 1080px;
+    height: 720px;
+    border: 3px solid #cdcdcd;
+    background-color: #fefefe;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+}
+
+#dialog .tool-bar {
+    width: 1080px;
+    height: 48px;
+    background-color: #efefef;
+}
+
+#close-button {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+#dialog form {
+
+}
+
+#dialog form select,input {
+    display: block;
+    height: 48px;
+    width: 1000px;
+    line-height: 48px;
+    border: 1px solid #efefef;
+    margin: 1px auto;
+    text-indent: 16px;
+}
+#dialog .tips {
+    display: block;
+    height: 48px;
+    width: 1000px;
+    line-height: 48px;
+    margin: 1px auto;
+    text-indent: 16px;
+}
+
+#editor {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#notice {
+    position: absolute;
+    width: 480px;
+    height: 48px;
+    margin: 0px auto;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    background-color: rgba(127, 255, 212, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    z-index: 2;
+    display: none;
+}

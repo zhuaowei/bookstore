@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    color: #212121;
+}
+
+.highlight {
+    background-color: #478af5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.container .top-bar {
+    height: 50px;
+    border: 1px solid grey;
+}
+
+.container .top-bar img {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin: 7px 7px;
+}
+
+.container .top-bar>.member {
+    float: right;
+}
+
+.container .top-bar>.member img {
+    float: right;
+}
+
+.container .top-bar>.member label {
+    margin: 7px 0px;
+    height: 36px;
+    width: 80px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    float: right;
+}
+
+.container .book {
+    height: auto;
+    border: 1px solid grey;
+}
+
+.container .book>a>img {
+    width: 200px;
+    object-fit: cover;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+}
+
+.container .book .book-info {
+    width: 750px;
+    float: left;
+    margin: 0px 20px;
+}
+
+.container .book .book-info p {
+    display: block;
+    height: 36px;
+    font-size: 16px;
+    height: 36px;
+    overflow: hidden;
+    /*float: left;*/
+}
+
+.container .book .book-info .subTitle {
+    font-size: 16px;
+    height: 50px;
+}
+
+.container .book .book-info p span {
+    margin: 0px 10px;
+}
+
+.container .book .book-info .button input {
+    font-size: 20px;
+    width: 120px;
+    height: 36px;
+    border-radius: 3px;
+    line-height: 36px;
+    margin: 0px 25px;
+    float: left;
+}
+
+#description {
+    width: 1000px;
+    padding: 10px;
+}
+
+.container .comment {
+    padding: 10px;
+}
+
+.container .comment .tool-bar {
+    height: 90px;
+    padding: 7px;
+
+}
+#evaluation-star {
+    height: 40px;
+    line-height: 40px;
+}
+
+#evaluation-star input {
+    margin: 3px;
+    border: 1px solid grey;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container .comment .tool-bar #evaluation {
+    width: 888px;
+    height: 36px;
+    padding: 0px 10px;
+    font-size: 20px;
+    line-height: 36px;
+    border: 1px solid grey;
+}
+
+.container .comment .tool-bar #add-evaluation {
+    background-color: #478af5;
+    width: 120px;
+    height: 36px;
+    border-radius: 5px;
+    /*float: right;*/
+}
+
+.container .comment .evaluation-list .evaluation {
+    border: 1px solid grey;
+    padding: 0px 10px;
+    margin: 2px 0px;
+}
+
+.container .comment .evaluation-list .evaluation .member {
+    height: 36px;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+    line-height: 36px;
+}
+
+.container .comment .evaluation-list .evaluation span {
+    margin: 0px 10px;
+}
+
+.container .comment .evaluation-list .evaluation .content {
+    height: 48px;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.container .comment .evaluation-list .evaluation .content button {
+    height: 48px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #478af5;
+    float: right;
+}
+
+.container .comment .evaluation-list .evaluation .content button img {
+    height: 32px;
+    width: 32px;
+    margin: 8px;
+}
+.container .comment .evaluation-list .evaluation .content button label {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin: 7px;
+    font-size: 18px;
+    color: #efefef;
+    line-height: 32px;
+    bottom: 18px;
+}

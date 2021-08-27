@@ -1,0 +1,136 @@
+
+
+.main-bookstore {
+
+}
+
+.main-bookstore .container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.container .member {
+    height: 48px;
+}
+
+.member img {
+    height: 36px;
+    width: 36px;
+    margin: 6px;
+    border-right: 3px;
+    object-fit: cover;
+    float: right;
+}
+
+.member label {
+    margin: 7px 0px;
+    height: 36px;
+    width: 80px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    float: right;
+}
+
+.main-bookstore .container .menu-bar {
+    height: 100px;
+}
+
+.main-bookstore .container .menu-bar ul {
+    height: 50px;
+    border-bottom: solid 1px grey;
+}
+
+.main-bookstore .container .menu-bar .category-bar .item {
+    height: 36px;
+    width: 72px;
+    margin: 7px 10px;
+    float: left;
+}
+
+.main-bookstore .container .menu-bar .item a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+
+.main-bookstore .container .menu-bar .sort-bar .item {
+    height: 36px;
+    width: 108px;
+    margin: 7px 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.selected a {
+    color: #f0295e;
+}
+
+/* 图书列表 */
+.main-bookstore .container .book-list ul {
+}
+
+.main-bookstore .container .book-list .book-item {
+    height: 240px;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.main-bookstore .container .book-list .book-item:hover {
+    background-color: #efefef;
+}
+.main-bookstore .container .book-list .book-item .cover {
+    height: 240px;
+    object-fit: cover;
+    float: left;
+}
+
+.main-bookstore .container .book-list .book-item .book-info {
+    width: 750px;
+    float: left;
+    margin: auto 20px;
+}
+
+.main-bookstore .container .book-list .book-item .book-info p {
+    display: block;
+    height: 36px;
+    font-size: 16px;
+    height: 36px;
+    overflow: hidden;
+}
+
+/* 跳转页面 */
+.main-bookstore .container .skip-bar {
+    font-size: 16px;
+    height: 50px;
+}
+
+.main-bookstore .container .skip-bar .button-bar {
+    float: left;
+}
+.main-bookstore .container .skip-bar input {
+    width: 64px;
+    height: 36px;
+    margin: 7px 10px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.main-bookstore .container .skip-bar .button-bar input:hover{
+    color: #f0295e;
+}
+
+.main-bookstore .container .skip-bar .skip {
+    float: right;
+}
+.main-bookstore .container .skip-bar .skip .skip-value {
+    border: solid 1px grey;
+    border-radius: 3px;
+}
+
+.main-bookstore .container .skip-bar .skip .skip-button:hover {
+    color: #f0295e;
+}

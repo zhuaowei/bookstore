@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.selected {
+    background-color: #35deb1;
+    color: #efefef;
+}
+
+.container {
+    width: 720px;
+    margin: 0px auto;
+}
+
+.container .content {
+    margin: 320px 100px;
+    width: 480px;
+    height: 360px;
+    background-color: #ababab;
+}
+
+.container .content .button {
+    height: 48px;
+    width: 360px;
+    margin: 0px auto;
+}
+
+.container .content .button input {
+    width: 120px;
+    height: 48px;
+    font-size: 24px;
+    margin: 0px 28px;
+}
+
+.container .content .form {
+    height: 240px;
+    margin: 36px 60px;
+}
+
+.container .content .form form {
+    height: 240px;
+    width: 360px;
+}
+
+input {
+    text-indent: 16px;
+}
+
+.container .content .form .input-text {
+    font-size: 16px;
+    border: 1px solid grey;
+    height: 32px;
+    width: 320px;
+    margin: 8px 20px;
+    line-height: 32px;
+}
+
+.container .content .form .verify {
+    height: 32px;
+    width: 320px;
+    margin: 0px 20px;
+}
+.container .content .form .verify input {
+    font-size: 16px;
+    border: 1px solid grey;
+    height: 32px;
+    width: 160px;
+    line-height: 32px;
+    margin: 8px 0px;
+}
+
+.container .content .form .verify img {
+    height: 32px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.container .content .form input[type="submit"] {
+    height: 48px;
+    width: 320px;
+    margin: 0px 20px;
+    background-color: #478af5;
+    font-size: 24px;
+    color: #efefef;
+    border-radius: 10px;
+}

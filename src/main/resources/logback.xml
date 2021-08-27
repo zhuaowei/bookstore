@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!-- appender: 追加器，在哪里输出日志 name: 起个名字 class: 类名 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 编码 -->
+        <encoder>
+            <!-- pattern: 日志输出格式 使用%引用变量 -->
+            <pattern>
+                %d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+    <!-- 日志输出的最低级别 -->
+    <root level="debug">
+        <appender-ref ref="console"></appender-ref>
+    </root>
+</configuration>
